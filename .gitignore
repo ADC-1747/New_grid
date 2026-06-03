@@ -4,4 +4,3 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .python-version
-offer_curve_forecast.html
