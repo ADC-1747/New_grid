@@ -1,0 +1,116 @@
+Collecting streamlit
+  Downloading streamlit-1.58.0-py3-none-any.whl.metadata (9.6 kB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=4.0 (from streamlit)
+  Downloading altair-6.1.0-py3-none-any.whl.metadata (11 kB)
+Collecting blinker<2,>=1.5.0 (from streamlit)
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting cachetools<8,>=5.5 (from streamlit)
+  Downloading cachetools-7.1.4-py3-none-any.whl.metadata (5.5 kB)
+Collecting click<9,>=7.0 (from streamlit)
+  Downloading click-8.4.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit)
+  Downloading gitpython-3.1.50-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: numpy<3,>=1.23 in ./venv/lib/python3.11/site-packages (from streamlit) (2.4.6)
+Requirement already satisfied: packaging>=20 in ./venv/lib/python3.11/site-packages (from streamlit) (26.2)
+Requirement already satisfied: pandas<4,>=1.4.0 in ./venv/lib/python3.11/site-packages (from streamlit) (3.0.3)
+Collecting pillow<13,>=7.1.0 (from streamlit)
+  Downloading pillow-12.2.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit)
+  Downloading pydeck-0.9.2-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting protobuf<8,>=3.20 (from streamlit)
+  Downloading protobuf-7.35.0-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+Collecting pyarrow>=7.0 (from streamlit)
+  Downloading pyarrow-24.0.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+Requirement already satisfied: requests<3,>=2.27 in ./venv/lib/python3.11/site-packages (from streamlit) (2.34.2)
+Collecting tenacity<10,>=8.1.0 (from streamlit)
+  Downloading tenacity-9.1.4-py3-none-any.whl.metadata (1.2 kB)
+Collecting toml<2,>=0.10.1 (from streamlit)
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: typing-extensions<5,>=4.10.0 in ./venv/lib/python3.11/site-packages (from streamlit) (4.15.0)
+Collecting starlette>=0.40.0 (from streamlit)
+  Downloading starlette-1.2.1-py3-none-any.whl.metadata (6.3 kB)
+Collecting uvicorn>=0.30.0 (from streamlit)
+  Downloading uvicorn-0.48.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting httptools>=0.6.3 (from streamlit)
+  Downloading httptools-0.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (3.5 kB)
+Requirement already satisfied: anyio>=4.0.0 in ./venv/lib/python3.11/site-packages (from streamlit) (4.13.0)
+Collecting python-multipart>=0.0.10 (from streamlit)
+  Downloading python_multipart-0.0.30-py3-none-any.whl.metadata (2.1 kB)
+Collecting websockets>=12.0.0 (from streamlit)
+  Downloading websockets-16.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.8 kB)
+Collecting itsdangerous>=2.1.2 (from streamlit)
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit)
+  Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.3/44.3 kB 1.5 MB/s eta 0:00:00
+
+Requirement already satisfied: jinja2 in ./venv/lib/python3.11/site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (3.1.6)
+Requirement already satisfied: jsonschema>=3.0 in ./venv/lib/python3.11/site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (4.26.0)
+Requirement already satisfied: narwhals>=2.4.0 in ./venv/lib/python3.11/site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (2.22.0)
+Requirement already satisfied: idna>=2.8 in ./venv/lib/python3.11/site-packages (from anyio>=4.0.0->streamlit) (3.18)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit)
+  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./venv/lib/python3.11/site-packages (from pandas<4,>=1.4.0->streamlit) (2.9.0.post0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./venv/lib/python3.11/site-packages (from requests<3,>=2.27->streamlit) (3.4.7)
+Requirement already satisfied: urllib3<3,>=1.26 in ./venv/lib/python3.11/site-packages (from requests<3,>=2.27->streamlit) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in ./venv/lib/python3.11/site-packages (from requests<3,>=2.27->streamlit) (2026.5.20)
+Requirement already satisfied: h11>=0.8 in ./venv/lib/python3.11/site-packages (from uvicorn>=0.30.0->streamlit) (0.16.0)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit)
+  Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.11/site-packages (from jinja2->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (3.0.3)
+Requirement already satisfied: attrs>=22.2.0 in ./venv/lib/python3.11/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (26.1.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in ./venv/lib/python3.11/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in ./venv/lib/python3.11/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (0.37.0)
+Requirement already satisfied: rpds-py>=0.25.0 in ./venv/lib/python3.11/site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (2026.5.1)
+Requirement already satisfied: six>=1.5 in ./venv/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas<4,>=1.4.0->streamlit) (1.17.0)
+Downloading streamlit-1.58.0-py3-none-any.whl (9.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 2.9 MB/s eta 0:00:00
+
+Downloading altair-6.1.0-py3-none-any.whl (796 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 797.0/797.0 kB 3.6 MB/s eta 0:00:00
+
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading cachetools-7.1.4-py3-none-any.whl (16 kB)
+Downloading click-8.4.1-py3-none-any.whl (116 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 116.6/116.6 kB 3.8 MB/s eta 0:00:00
+
+Downloading gitpython-3.1.50-py3-none-any.whl (212 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 212.5/212.5 kB 3.1 MB/s eta 0:00:00
+
+Downloading httptools-0.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (464 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 464.7/464.7 kB 3.6 MB/s eta 0:00:00
+
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading pillow-12.2.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 3.2 MB/s eta 0:00:00
+
+Downloading protobuf-7.35.0-cp310-abi3-manylinux2014_x86_64.whl (327 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 327.1/327.1 kB 3.7 MB/s eta 0:00:00
+
+Downloading pyarrow-24.0.0-cp311-cp311-manylinux_2_28_x86_64.whl (48.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.8/48.8 MB 1.5 MB/s eta 0:00:00
+
+Downloading pydeck-0.9.2-py2.py3-none-any.whl (11.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 1.7 MB/s eta 0:00:00
+
+Downloading python_multipart-0.0.30-py3-none-any.whl (29 kB)
+Downloading starlette-1.2.1-py3-none-any.whl (73 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.3/73.3 kB 2.9 MB/s eta 0:00:00
+
+Downloading tenacity-9.1.4-py3-none-any.whl (28 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading uvicorn-0.48.0-py3-none-any.whl (71 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.4/71.4 kB 1.8 MB/s eta 0:00:00
+
+Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 kB 3.1 MB/s eta 0:00:00
+
+Downloading websockets-16.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (184 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.6/184.6 kB 1.6 MB/s eta 0:00:00
+
+Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 2.2 MB/s eta 0:00:00
+
+Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+Installing collected packages: websockets, watchdog, toml, tenacity, smmap, python-multipart, pyarrow, protobuf, pillow, itsdangerous, httptools, click, cachetools, blinker, uvicorn, starlette, pydeck, gitdb, gitpython, altair, streamlit
+Successfully installed altair-6.1.0 blinker-1.9.0 cachetools-7.1.4 click-8.4.1 gitdb-4.0.12 gitpython-3.1.50 httptools-0.8.0 itsdangerous-2.2.0 pillow-12.2.0 protobuf-7.35.0 pyarrow-24.0.0 pydeck-0.9.2 python-multipart-0.0.30 smmap-5.0.3 starlette-1.2.1 streamlit-1.58.0 tenacity-9.1.4 toml-0.10.2 uvicorn-0.48.0 watchdog-6.0.0 websockets-16.0
